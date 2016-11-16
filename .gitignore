@@ -93,3 +93,7 @@ ENV/
 # Temporary data
 .ipynb_checkpoints/
 
+.idea/digit-recognizer.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
