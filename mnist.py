@@ -57,11 +57,11 @@ def load_mnist(dataset="training", digits=None, path='Sets/', asbytes=False, sel
     environment variable ``$MNIST`` point to the folder, this will load all
     images and labels from the training set:
 
-    &gt;&gt;&gt; images, labels = ag.io.load_mnist('training') # doctest: +SKIP
+    images, labels = ag.io.load_mnist('training') # doctest: +SKIP
 
     Load 100 sevens from the testing set:
 
-    &gt;&gt;&gt; sevens = ag.io.load_mnist('testing', digits=[7], selection=slice(0, 100), return_labels=False) # doctest: +SKIP
+    sevens = ag.io.load_mnist('testing', digits=[7], selection=slice(0, 100), return_labels=False) # doctest: +SKIP
 
     """
 
